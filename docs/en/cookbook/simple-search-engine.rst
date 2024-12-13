@@ -27,7 +27,7 @@ setup a document like the following with a ``$keywords`` property that is mapped
 
         #[Field(type: 'collection')]
         #[Index]
-        public array $keywords;
+        public array $keywords = [];
 
         public function __construct()
         {
